@@ -1,0 +1,10 @@
+ru:
+  hello: "Hello world"
+  enumerize:
+    event:
+      recurs_on: 
+        n_a: "No recursion"
+        day: "Daily"
+        week: "Weekly"
+        month: "Monthly"
+        year: "Yearly"

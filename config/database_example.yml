@@ -1,0 +1,21 @@
+defaults: &defaults
+  adapter: postgresql
+  host:     localhost
+  encoding: unicode
+  pool: 5
+  username: kii
+  password:
+  template: template0
+
+development:
+  <<: *defaults
+  database: flatevent_development
+production:
+  <<: *defaults
+  database: flatevent_production
+staging:
+  <<: *defaults
+  database: flatevent_staging
+test:
+  <<: *defaults
+  database: flatevent_test
